@@ -1,7 +1,7 @@
 let name ='Vasanthakumar';
 console.log("My name is: " +name);
 
-let age = 31;
+const age = 31;
 console.log("My age is: "+age);
 
 let isLoggedIn = true;

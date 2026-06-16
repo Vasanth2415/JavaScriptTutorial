@@ -2,8 +2,8 @@ let validUsername = "Vasantha";
 let validPassword = "Mylogin123";
 
 
-let enteredUsername ="Vinoth";
-let enteredPassword ="Login123";
+const enteredUsername ="Vinoth";
+const enteredPassword ="Login123";
 
 
 if(enteredUsername === validUsername && enteredPassword === validPassword){
