@@ -10,6 +10,7 @@ if(username === validUsername && password === validPassword){
 
 }
 
+
 const products = [
 {id:101,name:"Asus",type:"Laptop",price:28000},
 {id:102,name:"Apple",type:"Laptop",price:55000},
@@ -38,6 +39,7 @@ console.log(products);
 console.log(addToCart(101));
 console.log(addToCart(102));
 console.log(addToCart(103));
+console.log(addToCart(900));
 
 console.log("Cart Items: ");
 console.log(cart);

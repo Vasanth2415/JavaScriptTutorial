@@ -1,12 +1,3 @@
-function sayHello(){ // Basic Function
-
-    const message = "Hello, Vasantha";
-    console.log(message);
-}
-
-sayHello();
-
-
 function login(username,password){ // Parameterised Function
 
 const validUsername = "Vasantha";
@@ -21,7 +12,8 @@ if(username === validUsername && password === validPassword){
 }
 
 try
-{console.log(login("Vasantha","Vasantha123"));
+{
+console.log(login("Vasantha","Vasantha123"));
 console.log(login("Vasan","12345"));
 }
 
