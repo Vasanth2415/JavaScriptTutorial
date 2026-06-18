@@ -17,7 +17,8 @@ console.log("Product Names: ");
 console.log(productNames);
 
 // Reduce
-let totalPrice = filteredProducts.reduce((sum,product) => {
+let totalPrice = filteredProducts.reduce(
+    (sum,product) => {
     return sum + product.price;
 },0)
 
