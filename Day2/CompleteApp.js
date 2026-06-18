@@ -1,4 +1,4 @@
-/* // Login Validation
+ // Login Validation
 const user = {
     username: "Vasantha",
     password: "Mylogin123"
@@ -125,4 +125,3 @@ if(login("Vasantha","Mylogin123")){
     viewCart();
 } 
 
-*/
