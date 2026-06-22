@@ -1,0 +1,23 @@
+{
+  "name": "javascripttutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasanth2415/JavaScriptTutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vasanth2415/JavaScriptTutorial/issues"
+  },
+  "homepage": "https://github.com/Vasanth2415/JavaScriptTutorial#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^26.0.0"
+  }
+}

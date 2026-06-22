@@ -1,4 +1,4 @@
-/* function login(username,password){  // Type 1
+function login(username,password){  // Type 1
 
 if(username === "Vasantha"  && password === "1234"){
 
@@ -7,7 +7,9 @@ if(username === "Vasantha"  && password === "1234"){
 return false;
 }
 
-export {login}; */
+export {login}; 
+
+
 
 
 export function login(username,password){ // Type 2
