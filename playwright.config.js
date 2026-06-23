@@ -12,8 +12,10 @@ import { defineConfig, devices } from '@playwright/test';
 /**
  * @see https://playwright.dev/docs/test-configuration
  */
-export default defineConfig({
+const config = ({
   testDir: './tests',
+  /* timeout: 40 * 1000,
+  expect : {timeout: 40 * 1000}, 
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -79,3 +81,4 @@ export default defineConfig({
   // },
 });
 
+module.exports = config

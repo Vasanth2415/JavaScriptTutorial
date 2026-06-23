@@ -115,9 +115,9 @@ function checkout(){
 
 if(login("Vasantha","Mylogin123")){
     displayProducts();
-    addToCart(101,2);
-    addToCart(102,3);
-    addToCart(103,1);
+    addToCart(101,5);
+    addToCart(102,6);
+    addToCart(103,2);
 
     viewCart();
     checkout();
